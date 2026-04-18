@@ -1,0 +1,108 @@
+# ==============================
+# RetroVid — .gitignore
+# ==============================
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ---------- IDE / Editor ----------
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# ---------- Environment / Secrets ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# ---------- Python (Backend) ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ---------- Node.js (Frontend) ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ---------- Vite / React Build ----------
+frontend/dist/
+frontend/build/
+*.local
+
+# ---------- Docker ----------
+docker-compose.override.yml
+pgdata/
+miniodata/
+postgres_data/
+redis_data/
+minio_data/
+
+# ---------- Upload / Processing Temp Files ----------
+uploads/
+temp/
+*.tmp
+*.temp
+*.3gp
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+!backend/presets/*.json
+
+# ---------- Logs ----------
+logs/
+*.log
+npm-debug.log*
+celerybeat-schedule
+celerybeat-schedule.db
+
+# ---------- Database ----------
+*.sql
+*.dump
+*.sqlite3
+!backend/migrations/*.sql
+
+# ---------- Misc ----------
+.cache/
+.temp/
+
+# TRAE
+trae/
+docs/
