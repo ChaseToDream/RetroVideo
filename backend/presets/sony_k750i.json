@@ -1,0 +1,45 @@
+{
+  "label": "Sony Ericsson K750i",
+  "device": "索爱 K750i (QVGA)",
+  "video": {
+    "width": 320,
+    "height": 240,
+    "fps": 15,
+    "bitrate": "128k",
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "scale_flag": "bilinear"
+  },
+  "color": {
+    "saturation": 0.8,
+    "contrast": 1.05,
+    "brightness": 0.0,
+    "hue": 0,
+    "gamma": 1.0
+  },
+  "noise": {
+    "enabled": true,
+    "strength": "light"
+  },
+  "scanlines": {
+    "enabled": false,
+    "opacity": 0.1
+  },
+  "watermark": {
+    "enabled": true,
+    "format": "%Y.%m.%d %H\\:%M\\:%S",
+    "position": "bottom_right",
+    "font_size": 12,
+    "font_color": "white"
+  },
+  "audio": {
+    "sample_rate": 22050,
+    "channels": 1,
+    "bitrate": "32k",
+    "codec": "aac"
+  },
+  "output": {
+    "format": "mp4",
+    "container": "mp4"
+  }
+}

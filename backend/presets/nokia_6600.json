@@ -1,0 +1,45 @@
+{
+  "label": "Nokia 6600",
+  "device": "诺基亚 6600 (Sub-QCIF)",
+  "video": {
+    "width": 176,
+    "height": 144,
+    "fps": 15,
+    "bitrate": "64k",
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "scale_flag": "neighbor"
+  },
+  "color": {
+    "saturation": 0.7,
+    "contrast": 1.1,
+    "brightness": 0.0,
+    "hue": 0,
+    "gamma": 1.0
+  },
+  "noise": {
+    "enabled": true,
+    "strength": "medium"
+  },
+  "scanlines": {
+    "enabled": true,
+    "opacity": 0.15
+  },
+  "watermark": {
+    "enabled": true,
+    "format": "%Y.%m.%d %H\\:%M\\:%S",
+    "position": "bottom_right",
+    "font_size": 10,
+    "font_color": "white"
+  },
+  "audio": {
+    "sample_rate": 8000,
+    "channels": 1,
+    "bitrate": "12k",
+    "codec": "amr_nb"
+  },
+  "output": {
+    "format": "3gp",
+    "container": "3gp"
+  }
+}

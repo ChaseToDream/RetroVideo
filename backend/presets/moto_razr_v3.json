@@ -1,0 +1,45 @@
+{
+  "label": "Moto RAZR V3",
+  "device": "摩托罗拉 RAZR V3 (QCIF)",
+  "video": {
+    "width": 176,
+    "height": 144,
+    "fps": 12,
+    "bitrate": "48k",
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "scale_flag": "neighbor"
+  },
+  "color": {
+    "saturation": 0.6,
+    "contrast": 1.15,
+    "brightness": 0.02,
+    "hue": 5,
+    "gamma": 1.0
+  },
+  "noise": {
+    "enabled": true,
+    "strength": "medium"
+  },
+  "scanlines": {
+    "enabled": true,
+    "opacity": 0.18
+  },
+  "watermark": {
+    "enabled": true,
+    "format": "%Y.%m.%d %H\\:%M\\:%S",
+    "position": "bottom_right",
+    "font_size": 10,
+    "font_color": "white"
+  },
+  "audio": {
+    "sample_rate": 8000,
+    "channels": 1,
+    "bitrate": "12k",
+    "codec": "amr_nb"
+  },
+  "output": {
+    "format": "3gp",
+    "container": "3gp"
+  }
+}
